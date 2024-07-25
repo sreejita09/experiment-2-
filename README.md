@@ -10,3 +10,14 @@ Auto class uses the global variable as its default.
 register defies local variables and has max size as the register size 
 static is not user defined since it only takes one value 
 extern uses global files which are visible to ALL programs 
+
+
+OUTPUT:
+1st code:
+![image](https://github.com/user-attachments/assets/ea901ae5-aedb-496c-83a1-5c3906674ab4)
+
+2nd code: 
+![image](https://github.com/user-attachments/assets/eed71c05-278f-45c9-aa61-3484372a9ecb)
+
+3rd code:
+![image](https://github.com/user-attachments/assets/4a9ac1b8-6aab-4f31-9222-18b75c5aa701)
