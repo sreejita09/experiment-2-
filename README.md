@@ -21,7 +21,7 @@ extern uses global files which are visible to ALL programs
 # codes
  1. first code
 
-#include<iostream >
+#include< iostream >
 
 using namespace std;
 
