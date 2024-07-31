@@ -49,6 +49,9 @@ int main()
      
 }
 
+output:
+![image](https://github.com/user-attachments/assets/ea901ae5-aedb-496c-83a1-5c3906674ab4)
+
 2. second code
 
 #include < iostream >
@@ -87,12 +90,35 @@ int main()
     
 }
 
-# OUTPUT:
-1st code:
-![image](https://github.com/user-attachments/assets/ea901ae5-aedb-496c-83a1-5c3906674ab4)
-
-2nd code: 
 ![image](https://github.com/user-attachments/assets/eed71c05-278f-45c9-aa61-3484372a9ecb)
 
-3rd code:
+
+
+3. code 3 
+
+#include < iostream >
+
+using namespace std;
+
+int main()
+
+{
+
+    int a;
+    cout<<"enter any integer: ";
+    cin>>a;
+    cout<<"\n integer ="<<a<<" and size is "<<sizeof(a)<<" bytes";
+    
+    int register b;
+    cout<<"\n enter a number: ";
+    cin>>b;
+    cout<<"\n REGISTER= "<<b<<" and size is "<<sizeof(b)<<" bytes";
+    
+    int auto c;
+    cout<<"\n enter an interger: ";
+    cin>>c;
+    cout<<"\n Auto = "<<c<<" and size is "<<sizeof(c)<<" bytes";
+    return 0;
+}
+
 ![image](https://github.com/user-attachments/assets/4a9ac1b8-6aab-4f31-9222-18b75c5aa701)
