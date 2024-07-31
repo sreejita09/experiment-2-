@@ -1,8 +1,10 @@
 # Experiment 2 
 
-# Aim: to find size of the data types. 
+# Aim: 
+to find size of the data types. 
 
-# Theory: "sizeof" is a unary operator that finds the size of data types of variables and constants. The sizes of data types are the same in all the cases usually, for example int always is 4 bytes and so on. 
+# Theory: 
+"sizeof" is a unary operator that finds the size of data types of variables and constants. The sizes of data types are the same in all the cases usually, for example int always is 4 bytes and so on. 
 in the first code, we find the size of character, int, float, short int, long int, bool, long double. 
 
 In the second code, it is user defined. The user will enter an integer, float, short int and long int and the program will find the size of it. 
@@ -16,6 +18,74 @@ static is not user defined since it only takes one value
 
 extern uses global files which are visible to ALL programs 
 
+# codes
+ 1. first code
+
+#include<iostream >
+
+using namespace std;
+
+int main()
+
+{
+
+    cout<< "size of char: " <<sizeof(char) << "byte(s)" <<endl;
+    
+     cout<< "size of int: " <<sizeof(int)<< "byte(s)" <<endl;
+     
+     cout<< "size of short int: " <<sizeof(short int) << "byte(s)" <<endl;
+     
+     cout<< "size of long int: " <<sizeof(long int) << "byte(s)" <<endl;
+     
+     cout<< "size of float : " <<sizeof(float) << "byte(s)" <<endl;
+     
+     cout<< "size of double: " <<sizeof(double) << "byte(s)" <<endl;
+     
+     cout<< "size of long double: " <<sizeof(long double) << "byte(s)" <<endl;
+     
+     cout<< "size of bool: " <<sizeof(bool) << "byte(s)" <<endl;
+     
+     return 0;
+     
+}
+
+2. second code
+
+#include < iostream >
+
+using namespace std;
+
+int main()
+
+{
+
+    int a;
+    
+    cout<<"enter any integer: ";
+    
+    cin>>a;
+    
+    cout<<"\n integer = "<<a<<" and size is "<<sizeof(a)<<" bytes";
+    
+    float b;
+    
+    cout<<"\n enter a number: ";
+    
+    cin>>b;
+    
+    cout<<"\n Float= "<<b<<" and size is "<<sizeof(b)<<" bytes";
+    
+    short int c;
+    
+    cout<<"\nenter an interger: ";
+    
+    cin>>c;
+    
+    cout<<"\nShort integer = "<<c<<" and size is "<<sizeof(c)<<" bytes";
+    
+    return 0;
+    
+}
 
 # OUTPUT:
 1st code:
