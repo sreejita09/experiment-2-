@@ -3,6 +3,9 @@
 # Aim: 
 To study and implement C++ Program Structure (Data Types)
 
+# software used
+VS code 
+
 # Theory: 
 "sizeof" is a unary operator that finds the size of data types of variables and constants. The sizes of data types are the same in all the cases usually, for example int always is 4 bytes and so on. 
 in the first code, we find the size of character, int, float, short int, long int, bool, long double. 
